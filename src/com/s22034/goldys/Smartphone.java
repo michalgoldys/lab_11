@@ -19,11 +19,9 @@ public class Smartphone extends
     }
 
     public void showHistoryCalls(){
-        for(String lastCalls : getLastCalls()){
-            System.out.println(
-                    lastCalls
-            );
-        }
+        System.out.println(
+                "Showing SMARTPHONE calls history below:"
+        );
     }
 
     public void addPersonToList(Person person){
